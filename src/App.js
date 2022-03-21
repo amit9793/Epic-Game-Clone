@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Secoundpage from "./components/2ndpage";
+
+import Fetchindata from "./components/fatch";
+import { Route, Routes } from "react-router-dom";
+import { Login } from "./components/login";
+import { Signin } from "./components/signin";
+import { Payment } from "./components/payment.jsx";
+import { Wishlist } from "./components/wishlist";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Fetchindata />}></Route>
+        <Route path="/data" element={<Secoundpage />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/signin" element={<Signin />}></Route>
+        <Route path="/payment" element={<Payment />}></Route>
+        <Route path="/wishlist" element={<Wishlist />}></Route>
+      </Routes>
     </div>
   );
 }

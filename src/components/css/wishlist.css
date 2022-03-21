@@ -1,0 +1,36 @@
+.wishmain {
+  background-image: url("https://wallpaperaccess.com/full/346626.jpg");
+  height: 1000px;
+  color: aliceblue;
+  width: 100%;
+  background-color: aqua;
+}
+.wishgap {
+  height: 20px;
+}
+.wishtitle {
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+}
+.wishbox {
+  height: 800px;
+  width: 70%;
+
+  margin-left: 12%;
+  margin-top: 30px;
+}
+.databox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+}
+.demo {
+}
+.download {
+  height: 40px;
+  font-size: 15px;
+  width: 100%;
+}

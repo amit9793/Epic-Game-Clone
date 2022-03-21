@@ -1,0 +1,36 @@
+.paymentmain {
+  background-image: url("https://wallpaperaccess.com/full/4597111.jpg");
+  height: 1000px;
+  width: 100%;
+}
+.paybox {
+  height: 500px;
+  border-style: dotted;
+  border-color: brown;
+  width: 30%;
+  margin-left: 1400px;
+  margin-top: 80px;
+}
+.paygap {
+  height: 20px;
+}
+.paytitle {
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue;
+  font-weight: 800;
+}
+.payinput {
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  margin-left: 90px;
+}
+.paybutton {
+  height: 40px;
+  width: 200px;
+  margin-left: 180px;
+  background-color: blue;
+  color: aliceblue;
+  font-size: 20px;
+}

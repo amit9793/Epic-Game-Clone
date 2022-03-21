@@ -1,0 +1,67 @@
+.gamename {
+  color: rgb(7, 7, 7);
+  text-align: center;
+  font-size: 20px;
+}
+.main2ndpage {
+  background-color: black;
+  width: 80%;
+  height: 1700px;
+  margin-left: 10%;
+}
+.leftright {
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: 1200px 400px;
+  grid-template-rows: 700px;
+}
+.left {
+  background-color: rgb(57, 40, 40);
+  border-radius: 10px;
+  /* text-align: center; */
+  color: aliceblue;
+}
+.footer {
+  color: aliceblue;
+  margin-top: 20px;
+}
+.footerdata {
+  font-size: 20px;
+}
+.buy {
+  height: 50px;
+  background-color: rgb(4, 16, 253);
+  width: 70%;
+  margin-left: 18%;
+  text-align: center;
+}
+.buynow {
+  padding-top: 12px;
+  font-size: 22px;
+  background-color: blue;
+}
+.gap1 {
+  height: 20px;
+}
+.name {
+  font-weight: 900;
+  height: 50px;
+  font-size: 35px;
+  text-align: center;
+  color: rgb(255, 0, 230);
+}
+.saradata {
+  font-size: 12px;
+  margin-left: 50px;
+}
+.all1 {
+  background-color: rgb(10, 10, 10);
+}
+.buynow1 {
+  padding-top: 12px;
+  font-size: 22px;
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+  color: aliceblue;
+}

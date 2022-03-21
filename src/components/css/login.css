@@ -1,0 +1,51 @@
+.loginback {
+  background-image: url("https://wallpaperaccess.com/full/84455.jpg");
+  height: 1000px;
+  width: 100%;
+  color: aliceblue;
+}
+.loginbox {
+  height: 700px;
+  border-style: dotted;
+  border-color: red;
+  width: 25%;
+  margin-left: 150px;
+  margin-top: 10px;
+  color: black;
+}
+.logingap {
+  height: 100px;
+}
+.logintitle {
+  text-align: center;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 50px;
+  padding-top: 40px;
+}
+.logininput {
+  height: 50px;
+  text-align: center;
+  font-weight: 700;
+  color: rgb(15, 15, 15);
+  width: 70%;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+.submitbutton {
+  height: 50px;
+  width: 50%;
+  color: aliceblue;
+  margin-left: 100px;
+  font-size: 25px;
+  background-color: blue;
+  border-radius: 5px;
+  margin-top: 70px;
+}
+.createaccount {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 50px;
+}
